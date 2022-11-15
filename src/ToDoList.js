@@ -10,7 +10,6 @@ const ToDoList = () => {
     }
 
     const removeTask = (id) => {
-        console.log(id)
         setToDos(ToDos => ToDos.filter(task => task.id !== id))
     }
 
