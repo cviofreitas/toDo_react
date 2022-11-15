@@ -1,0 +1,20 @@
+.ToDoContainer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.ToDoList {
+    min-height: 500px;
+    height: fit-content;
+    padding: 10px;
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(25, 41, 64), rgb(47, 80, 104));
+    box-shadow: 3px 3px 20px rgba(128, 128, 128, 0.557);
+    border-radius: 20px;
+
+}
