@@ -25,7 +25,7 @@ const ToDoItem = ({ todo, task, id, removeTask, updateTask }) => {
 
     const [editable, setEditable] = useState(false)
     const editTask = () => {
-
+        console.log('editTask')
         if (editable === false) {
             setEditable(true)
 
@@ -37,10 +37,13 @@ const ToDoItem = ({ todo, task, id, removeTask, updateTask }) => {
     }
 
     const handleSubmit = (event) => {
-        event.preventDefault();
-        updateTask(id, currentTask)
 
+        event.preventDefault();
+        console.log('handlesubmit')
+        editTask()
+        updateTask(id, currentTask)
     }
+
     return (
         <div className={`task ${checked ? 'checked' : null}`} >
             {/* checkBox */}
@@ -56,7 +59,11 @@ const ToDoItem = ({ todo, task, id, removeTask, updateTask }) => {
                         onChange={onChange}
                         disabled={!editable}
                     />
-                    <button className='submitChange' onClick={handleSubmit} />
+                    <button className='submitChange' onClick={handleSubmit}>
+                        <img src={require('./images/check.png')} style={{
+                            height: '30px'
+                        }} />
+                    </button>
 
                 </form> : <p className='inputText'>{task}</p>}
 
@@ -65,9 +72,11 @@ const ToDoItem = ({ todo, task, id, removeTask, updateTask }) => {
 
                 {/* used to edit task */}
                 <button className='button' onClick={() => editTask()}>
-                    {editable ? <img src={require('./images/check.png')} style={{
-                        height: '30px'
-                    }} />
+                    {editable ?
+                        // <img src={require('./images/check.png')} style={{
+                        //     height: '30px'
+                        // }} />
+                        null
                         :
                         <img src={require('./images/edit.png')} style={{
                             height: '35px',

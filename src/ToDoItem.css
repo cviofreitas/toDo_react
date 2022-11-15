@@ -36,6 +36,10 @@
 
 }
 
+button {
+    cursor: pointer;
+}
+
 button>img {
     -webkit-filter: drop-shadow(1px 1px 5px #0d326075);
     filter: drop-shadow(1px 1px 5px #0d326075);
@@ -85,8 +89,8 @@ button>img {
     background: none;
     border: none;
     position: relative;
-    right: 30px;
-    top: 30px;
+    right: -35px;
+    /* top: 30px; */
     margin: 0;
 
 }

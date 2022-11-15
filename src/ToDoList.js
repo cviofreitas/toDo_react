@@ -10,6 +10,7 @@ const ToDoList = () => {
     }
 
     const removeTask = (id) => {
+        console.log(id)
         setToDos(ToDos => ToDos.filter(task => task.id !== id))
     }
 
@@ -17,7 +18,7 @@ const ToDoList = () => {
 
         let changedTask = (ToDos.filter(task => task.id === id))
         changedTask[0].task = editedTask
-
+        console.log('updated')
         setToDos(ToDos => [...ToDos])
 
     }
