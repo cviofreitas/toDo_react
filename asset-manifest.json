@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/toDo_react/static/css/main.57d53fd6.css",
-    "main.js": "/toDo_react/static/js/main.1fa6de2f.js",
+    "main.css": "/toDo_react/static/css/main.c9cc8f5e.css",
+    "main.js": "/toDo_react/static/js/main.ed461a64.js",
     "static/js/787.5c477fe5.chunk.js": "/toDo_react/static/js/787.5c477fe5.chunk.js",
     "static/media/check.png": "/toDo_react/static/media/check.48378f79b7bfb2c6c907.png",
     "static/media/edit.png": "/toDo_react/static/media/edit.20b23789e3450cf5cf5f.png",
     "static/media/bell.png": "/toDo_react/static/media/bell.d149413dd7b2ae1df21f.png",
     "static/media/trash-bin.png": "/toDo_react/static/media/trash-bin.3064958e440239dc1a1d.png",
     "index.html": "/toDo_react/index.html",
-    "main.57d53fd6.css.map": "/toDo_react/static/css/main.57d53fd6.css.map",
-    "main.1fa6de2f.js.map": "/toDo_react/static/js/main.1fa6de2f.js.map",
+    "main.c9cc8f5e.css.map": "/toDo_react/static/css/main.c9cc8f5e.css.map",
+    "main.ed461a64.js.map": "/toDo_react/static/js/main.ed461a64.js.map",
     "787.5c477fe5.chunk.js.map": "/toDo_react/static/js/787.5c477fe5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57d53fd6.css",
-    "static/js/main.1fa6de2f.js"
+    "static/css/main.c9cc8f5e.css",
+    "static/js/main.ed461a64.js"
   ]
 }
